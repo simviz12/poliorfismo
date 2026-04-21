@@ -1,5 +1,5 @@
 public class NotificacionSMS extends Notificacion {
-    private String telefono; // Usamos String por seguridad con los ceros iniciales
+    private String telefono;
 
     public void setTelefono(String telefono) { this.telefono = telefono; }
     public String getTelefono() { return telefono; }

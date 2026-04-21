@@ -3,7 +3,6 @@ public abstract class Notificacion {
     private String destinatario;
     private String mensaje;
 
-    // Getters y Setters
     public String getMensaje() { return mensaje; }
     public void setMensaje(String mensaje) { this.mensaje = mensaje; }
 
@@ -13,6 +12,5 @@ public abstract class Notificacion {
     public int getCodigo() { return codigo; }
     public void setCodigo(int codigo) { this.codigo = codigo; }
 
-    // Método que cada hijo debe implementar obligatoriamente
     public abstract void enviar();
 }

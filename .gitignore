@@ -1,5 +1,5 @@
+/bin/
 *.class
-.vscode/
 .idea/
-*.iml
-*.log
+.project
+.settings/
